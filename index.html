@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  	<title>Aarohi 2016 | Central India's Largest Cultural Festival</title>
+  	<meta name="author" content="Aarohi 2016" />
+  	<meta name="description" content="Aarohi 2016| Central India's Largest Cultural Festival" />
+  	<meta name="Resource-type" content="Document" />
+    
+    <link rel="shortcut icon" type="image/x-icon" href="2016/img/hobo.png" />
+    <link rel="stylesheet" href="timer/countdown/jquery.countdown.css" />
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="styles/creative.css" />
+    <link rel="stylesheet" type="text/css" href="styles/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="styles/jquery.pagepiling.css" />
+    <link rel="stylesheet" type="text/css" href="styles/custom.css"/>
+
+            <!-- JavaScript includes -->
+  	<script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="2016/js/jquery.pagepiling.js"></script>
+  	<script type="text/javascript" src="scripts/matchMedia.js"></script>
+    <script src="timer/countdown/jquery.countdown.js"></script>
+    <script src="timer/js/script.js"></script>
+
+     <script>
+     var timeOutScroll = null;
+  		var deleteLog = false;
+  		$(document).ready(function() {
+        if (matchMedia('only screen and (min-width: 760px)').matches) {
+
+  	    	$('#pagepiling').pagepiling({
+
+  	    		menu: '#menu',
+  	    		anchors: ['home', 'about_us', 'events' ,'contact_us'],
+  	    		navigation: {
+              'textColor': '#f2f2f2',
+              'bulletsColor': '#ccc',
+              'position': 'right',
+              'tooltips': ['Home', 'About us', 'Events', 'Contact us']
+            },
+          //normalScrollElements:  '#section2',
+          normalScrollElementTouchThreshold: 14,
+          // afterLoad : function(anchorLink, index) {
+          //     if ( index === 2 ) { 
+          //         $("#pagepiling").pagepiling.setAllowScrolling(0);
+          //         $("[data-anchor='" + anchorLink + "']").on("scroll", function(e){
+          //             clearTimeout(timeOutScroll);
+          //             timeOutScroll = setTimeout(function() {
+          //                 if (true === $("#pagepiling").pagepiling.checkScroll("bottom", $("[data-anchor='" + anchorLink + "']"))) {
+          //                     $("#pagepiling").pagepiling.setAllowScrolling(1);
+          //                     $("#pagepiling").pagepiling.moveTo(index+1);
+          //                 }
+          //                 if (true === $("#pagepiling").pagepiling.checkScroll("top", $("[data-anchor='" + anchorLink + "']"))) {
+          //                     $("#pagepiling").pagepiling.setAllowScrolling(1);
+          //                     $("#pagepiling").pagepiling.moveTo(index-1);
+          //                 }
+          //             }, 400);
+          //         });
+          //     }
+          // }
+          });
+        }
+      });
+      </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="fa fa-bars"></span>
+          </button>
+          <a class="navbar-brand" href="#home"><img src="2016/img/hobo.png" style="margin-top: -17px;"></a>
+        </div>
+
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+        		<li data-menuanchor="about_us"><a href="#about_us">About us</a></li>
+        		<li data-menuanchor="events"><a href="#events">Gallery</a></li>
+        		<li data-menuanchor="contact_us"><a href="#contact_us">Contact us</a></li>
+           		 <li><a href="sponsors.html">Sponsors</a></li>
+            	<li><a href="http://blog.aarohiworld.com/">Blog</a></li>
+            	<li><a href="Aarohi-2016 _Brochure.pdf" target="_blank">Brochure</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  	<div id="pagepiling">
+      <div class="section" id="section1">
+        <div id="container" class="row">
+          <div class="col-sm-12">
+            <ul id="scene0" class="scene">
+              <li class="layer" id="date" data-depth="0.0"><img src="images/date.png"></li>
+            </ul>
+          </div>
+          <div class="col-sm-8 col-md-offset-4">
+            <ul id="scene1" class="scene">
+              <li class="layer" id="cloud" data-depth="0.2"><img src="images/cloud.png"></li>
+              <li class="layer" id="ballon" data-depth="-0.2"><img src="images/balloon.png"></li>
+             <li class="layer" id="cloud_timer" data-depth="0.1"><img src="images/cloud_timer.png"></li>
+            <!--   <li class="layer" id="days_left" data-depth="0.15"><div id="countdown"></div><p>days to go..</ </li>-->
+           </ul>
+          </div>
+          <div class="col-sm-7 col-md-offset-3">
+            <ul id="scene2" class="scene">
+              <li class="layer" id="aarohi" data-depth="0.00"><img src="images/aarohi.png"></li>
+            </ul>
+          </div>
+          <div class="col-sm-7 col-md-offset-3">
+            <ul id="scene3" class="scene">
+              <li class="layer" id="hakuna_matata" data-depth="-0.15"><img src="images/hakuna_matata.png"></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-offset-3">
+            <ul id="scene4" class="scene">
+              <li class="layer" id="tree" data-depth="0.08"><img src="images/trees.png"></li>
+            </ul>
+          </div>
+          <div class="col-sm-12">
+            <ul id="scene5" class="scene">
+            <div class="grow">
+              <li class="layer" id="archives" data-depth="0.0"><a href="http://aarohiworld.com/archives/"><img style="margin-bottom: 0px;"src="images/archives.png"></a></li></div>
+              <li class="layer" id="grass" data-depth="0.0"><img style="margin-bottom: 0px;"src="images/land.png"></li>
+              <div>
+              <li class="layer" id="monkey" data-depth="0.0"><img style="margin-bottom: 0px;"src="images/monkey.png"></li>
+              <li class="layer" id="days_left" data-depth="0.0"><div id="countdown"></div><p>days to go..</p></li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+	    <div class="section pp-scrollable" id="section2">
+      <div class="intro">
+	    		<h2>About us</h2>
+          <hr>
+          <p>Aarohi is the annual cultural festival of Visvesvaraya National Institute of Technology, Nagpur held towards the end of February every year. Conceptualized way back in 1988, Aarohi has come a long way in all realms both qualitatively and quantitatively and has firmly ensonced itself as the centrepiece of the cultural spectrum of the region. It was started with the motive of promoting culture amongst students in Central India on a national platform. Today, it is the largest youth cultural festival held in Central 
+          India with a participation of around 5000 students & a whopping footfall of over 20,000. Aarohi, over the years has seen concerts like Sunburn Campus with Kash Trivedi, Coke Studio Night with The Raghu Dixit Project and performance by bands like 
+          Indigo Children, Workshop, Faridkot, Parikrama, MTV fame Agnee. It has also been graced by personalities like Urmila Matondkar, Avdhoot Gupte, Devaki Pandit, The marathi duo Dr. Saleel Kulkarni & Miss. Aryaa Ambekar. We are a Non-Profit 
+          Organisation completely organised and co-ordinated by a group of VNITians working together in the pursuit of a common cause, to produce meaningful results for the organisation.
+          </p>
+          </div>
+	    	</div>
+
+	    <div class="section pp-scrollable" id="section3">
+      <div class="intro">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center">Gallery</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="container" style="padding-right: 15px; padding-left: 15px; margin-left: 146px;">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <a href="workshops.html" class="services">
+                            <img src="2016/img/workshop.png" class="img-responsive" alt="">
+                            <h3 style="margin-top: 8px; margin-left: -79px;">Events & Workshops</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <a href="cn.html" class="services">
+                            <img src="2016/img/cultural%20nite.png" class="img-responsive" alt="">
+                            <h3 style="margin-left: -82px;">Cultural Nite & Social Initiatives</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <a href="pro-shows.html" class="services">
+                            <img src="2016/img/proshow.png" class="img-responsive" alt="">
+                            <h3 style="margin-left: -120px; margin-top: 10px;">Pro-Show</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <a href="sponsors.html" class="services">
+                            <img src="2016/img/sponsors.png" class="img-responsive" alt="">
+                            <h3 style="margin-left: -109px;">Sponsors</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+
+	    <div class="section pp-scrollable" id="section4">
+      <div class="intro">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+              <h2 class="section-heading">Let's Get In Touch!</h2>
+              <hr class="primary">
+              <br>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="row padded">
+            <div class="col-sm-4 col-sm-offset-1 col-md-offset-1 tile">
+              <h2>
+                President
+                <span class="pull-right">
+                    <a href="https://www.facebook.com/tanmay.khandelwal.18" target="_blank"><i class="fa fa-facebook"></i></a> &nbsp;<a href="https://in.linkedin.com/pub/tanmay-khandelwal/a3/6a5/748" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </span>
+              </h2>
+              <address>
+                <h4>Tanmay Khandelwal</h4>
+                <i class="fa fa-envelope"></i> &nbsp; <a href="tanmay.khandelwal%40aarohiworld.html">tanmay.khandelwal@aarohiworld.com</a><br>
+                <i class="fa fa-phone"></i> &nbsp; +91 9096651055<br>
+                <br>
+              </address>
+            </div>
+            <div class="col-sm-4 col-sm-offset-2 col-md-offset-2 tile">
+              <h2>
+                Vice President
+                <span class="pull-right">
+                  <a href="https://www.facebook.com/sanskar.jhanwar?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a> &nbsp;
+                  <a href="http://in.linkedin.com/in/sanskarjhanwar" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </span>
+              </h2>
+              <address>
+                <h4>Sanskar Jhanwar</h4>
+                <i class="fa fa-envelope"></i> &nbsp; <a href="mailto:sanskar.jhanwar@aarohiworld.com">sanskar.jhanwar@aarohiworld.com</a><br>
+                <i class="fa fa-phone"></i> &nbsp; +91 9403929675<br>
+                <br>
+              </address>
+            </div>
+          </div>
+          <div class="row padded">
+            <div class="col-sm-4 col-sm-offset-1 col-md-offset-1 tile">
+              <h2>
+                Vice President
+                <span class="pull-right">
+                  <a href="https://www.facebook.com/aayushi.srivastava.752" target="_blank"><i class="fa fa-facebook"></i></a> &nbsp;
+                  <a href="https://in.linkedin.com/pub/aayushi-srivastava/100/621/952" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </span>
+              </h2>
+              <address>
+                <h4>Aayushi Srivastava</h4>
+                <i class="fa fa-envelope"></i> &nbsp; <a href="mailto:aayushi.srivastava@aarohiworld.com">aayushi.srivastava@aarohiworld.com</a><br>
+                <i class="fa fa-phone"></i> &nbsp; +91 7798134588<br>
+                <br>
+              </address>
+            </div>
+            <div class="col-sm-4 col-sm-offset-2 col-md-offset-2 tile">
+              <h2>
+                Treasurer
+                <span class="pull-right">
+                  <a href="https://www.facebook.com/shubham.kene" target="_blank"><i class="fa fa-facebook"></i></a> &nbsp;
+                  <a href="https://in.linkedin.com/pub/shubham-kene/a8/209/782" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </span>
+              </h2>
+              <address>
+                <h4>Shubham Kene</h4>
+                <i class="fa fa-envelope"></i> &nbsp; <a href="mailto:shubham.kene@aarohiworld.com">shubham.kene@aarohiworld.com</a><br>
+                <i class="fa fa-phone"></i> &nbsp; +91 9405898467<br>
+                <br>
+              </address>
+            </div>
+          </div>
+          </div>
+          <!-- social media buttons -->
+            <ul class="social">
+              <li>
+              <a href="https://www.facebook.com/AarohiWorld" target="_blank">
+                <div class="facebook">
+                  <img src="images/facebook.png" >
+                </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/aarohi_vnit" target="_blank">
+                <div class="twitter">
+                <img src="images/twitter.png" >
+                </div>
+                </a>
+              </li>
+              <li>
+              <a href="https://www.instagram.com/aarohi_vnitnagpur" target="_blank">
+                <div class="instagram">
+                <img src="images/instagram.png" >
+                </div>
+                </a>
+              </li>
+              <li>
+               <a href="https://www.youtube.com/user/VNITAarohi" target="_blank">
+                 <div class="youtube">
+                 <img src="images/youtube.png" >
+                 </div>
+                 </a>
+              </li>
+            </ul>
+          <!-- **************************************** -->
+        </div>
+	    </div>
+      
+  	</div>
+
+
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/jquery.parallax.js"></script>
+    <script>
+      // Yep, that's it!
+      $('#scene1').parallax();
+      $('#scene2').parallax();
+      $('#scene3').parallax();
+      $('#scene4').parallax();
+      $('#scene5').parallax();
+      $('#scene6').parallax();
+    </script>
+  </body>
+</html>

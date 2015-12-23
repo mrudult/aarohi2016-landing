@@ -1,0 +1,368 @@
+@font-face {
+  font-family: "Myriad Pro Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../fonts/Myriad Pro Bold"), url("../fonts/MYRIADPRO-BOLD.woff") format("woff");
+}
+
+@font-face {
+  font-family: "FishFingers";
+  font-style: normal;
+  src: url("../fonts/Fishfingers_Light.eot?") format("eot"), url("../fonts/Fishfingers_Light.woff") format("woff"), url("../fonts/Fishfingers_Light.ttf") format("truetype"), url("../fonts/Fishfingers_Light.svg#FISHfingers-Light") format("svg");
+}
+@font-face {
+    font-family :"Chalk";
+    src: url("../fonts/EraserRegular.eot?") format("eot"), url("../fonts/EraserRegular.woff") format("woff"), url("../fonts/EraserRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Helsinki";
+  src: url("../fonts/helsinki.eot?") format("eot"), url("../fonts/helsinki.woff") format("woff"), url("../fonts/helsinki.ttf") format("truetype"), url("../fonts/helsinki.svg#Helsinki") format("svg");
+}
+
+@font-face {
+  font-family: "Amatic";
+  src: url("../fonts/AmaticSC-Bold.eot?") format("eot"), url("../fonts/AmaticSC-Bold.woff") format("woff"), url("../fonts/AmaticSC-Bold.ttf") format("truetype"), url("../fonts/AmaticSC-Bold.svg#AmaticSC-Bold") format("svg");
+}
+
+@font-face {
+  font-family: "ActionMan";
+  src: url("../fonts/Action_Man_Bold.eot?") format("eot"), url("../fonts/Action_Man_Bold.woff") format("woff"), url("../fonts/Action_Man_Bold.ttf") format("truetype"), url("../fonts/Action_Man_Bold.svg#ActionMan-Bold") format("svg");
+}
+
+@font-face {
+  font-family: "Pompiere";
+  src: url("../fonts/Pompiere-Regular.eot?") format("eot"), url("../fonts/Pompiere-Regular.woff") format("woff"), url("../fonts/Pompiere-Regular.ttf") format("truetype"), url("../fonts/Pompiere-Regular.svg#Pompiere-Regular") format("svg");
+}
+
+@font-face {
+  font-family: "Snoopy";
+  src: url("../fonts/snoopy_reg-webfont.eot?") format("eot"), url("s../fonts/noopy_reg-webfont.woff") format("woff"), url("../fonts/snoopy_reg-webfont.ttf") format("truetype"), url("../fonts/snoopy_reg-webfont.svg#Snoopy") format("svg");
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+     margin: 0px;
+     padding: 0px;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+     text-decoration: none;
+}
+
+table {
+     border-spacing: 0px;
+}
+
+fieldset, img {
+     border: 0px none;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+     font-style: normal;
+     font-weight: normal;
+}
+
+strong {
+     font-weight: bold;
+}
+
+ol, ul {
+     list-style: outside none none;
+     margin: 0px;
+     padding: 0px;
+}
+
+caption, th {
+     text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+     color: #f2f2f2;
+     font-size: 100%;
+     font-weight: normal;
+     margin: 0px;
+     padding: 0px;
+}
+
+q::before, q::after {
+     content: "";
+}
+
+abbr, acronym {
+     border: 0px none;
+}
+
+h1 {
+     color: #ffffff;
+     font-family: arial,helvetica;
+     font-size: 5em;
+     margin: 0px;
+     padding: 0px;
+}
+
+.section {
+     text-align: center;
+}
+
+#section1, #section2, #section3 {
+     background-size: cover;
+}
+#section1 {
+     background-color: white;
+}
+#section1 h1 {
+     color: #ffffff;
+     font-family: FishFingers;
+     font-weight: bold;
+     left: 0px;
+     margin: 0px auto;
+     position: relative;
+     right: 0px;
+}
+
+#section1 hr {
+     color: white;
+     max-width: 1%;
+     position: relative;
+}
+
+#section2 {
+     background:  #35505F;
+}
+
+#section2 .intro {
+     margin: 3em auto;
+     position: relative;
+}
+#section2 .intro p{
+    opacity: 1;
+    margin: 0 auto;
+    font-size: 1.8em;
+     color: white;
+     font-family: Snoopy;
+     font-weight: bold;
+     width: 80%;
+}
+
+#section2 h2 {
+     color: white;
+     font-family: Helsinki;
+     font-size: 2.5em;
+     padding-top: 4%;
+}
+
+
+#section2 hr {
+     color: white;
+     width: 3em;
+}
+
+
+
+/* section 3  CSS*/
+
+#section3 {
+     background-color: #9BCFDD;
+}
+#section3 .intro {
+     margin: 6em auto;
+     position: relative;
+}
+.service-box {
+    margin: 50px auto 0;
+    max-width: 300px;
+}
+
+@media(min-width:992px) {
+    .service-box {
+        margin: 20px auto 0;
+    }
+}
+
+.service-box p {
+    margin-bottom: 0;
+}
+
+#section3 img {
+     width: 55%;
+}
+
+#section3 h2 {
+     color: black;
+     font-family: Helsinki;
+     font-size: 3em;
+}
+
+#section3 hr {
+     width: 4em;
+     color: #000000 !important;
+}
+
+#section3 h1, #section3 p {
+     color: #ffffff;
+     text-shadow: 1px 5px 20px #000000;
+}
+
+#section3 .service-box {
+     margin: 50px auto 0px;
+     max-width: 300px;
+}
+
+#section3 h3 {
+    font-weight: bold;
+     color: black;
+     font-family: 'Amatic';
+     font-size: 2.7em;
+}
+/*#section3 h3:hover{
+    text-shadow: 1px 2px 8px #000000;
+
+}*/
+
+@media (min-width: 992px) {
+  .service-box { margin: 20px auto 0px; }
+}
+
+a:hover {
+     text-decoration: none;
+}
+/* section 4 css */
+#section4 .intro{
+
+         margin: auto;
+     position: relative;
+
+}
+#section4 .container {
+     margin-top: 5%;
+}
+
+#section4 {
+     background-color: #373737;
+}
+
+#section4 .tile {
+     background-color: white;
+     box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.16);
+     padding-top: 15px;
+     text-align: left;
+}
+
+#section4 .tile h3 .fa {
+     font-size: 0.9em ! important;
+}
+
+#section4 .section-heading {
+     color: white;
+     font-family: Helsinki;
+     font-size: 3em;
+}
+
+#section4 hr {
+     margin-bottom: -5%;
+     width: 50px;
+}
+
+#section4 address {
+     color: black;
+     font-style: normal;
+     line-height: 1.42857;
+     margin-bottom: 15px;
+     margin-top: 10px;
+}
+
+.padded {
+     margin-bottom: 50px;
+}
+
+#section4 h2 {
+     color: black;
+     font-family: "Open Sans";
+     font-size: 25px;
+}
+
+#section4 h3 {
+     font-family: ActionMan;
+}
+
+#section4 h4 {
+     color: black;
+     font-family: 'Open Sans';
+     font-size: 1.3em;
+}
+
+#section4 .contacts {
+     font-family: Snoopy;
+}
+
+#section4 a {
+     font-family: "Open Sans";
+}
+/* social buttons */
+
+#section4 .social
+{
+      margin-left:4.5em;
+    margin-top:-3.5em;
+    margin-bottom :-6em;
+    text-align: center;
+    transform: translatez(0);
+
+}
+#section4 .social li {
+  width: 8em;
+  height: 4em;
+  display: inline-block;
+  margin-top : 1em;
+  list-style: none;
+}
+#section4 .social li div {
+  width: 50px;
+  height: 50px;
+  font-size: 3.4em;
+  text-align: center;
+  line-height: 120px;
+  transition: all 0.5s ease;
+}
+#section4 .social li div img{
+   margin-top:-1.7em; 
+}
+#section4 .social .youtube{
+    background-color: #C02B29;
+}
+#section4 .social .facebook{
+    background-color: #3C5899;
+}
+#section4 .social .twitter{
+    background-color: #56A3D9;
+}
+#section4 .social .instagram{
+    background-color: #CD5959;
+}
+
+#section4 .social li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+}
+/* ------------------------------------------------------------ */
+a:hover {
+     text-decoration: none;
+}
+
+#infoMenu li a {
+     color: #ffffff;
+}
+
+
+
+.bg-primary {
+     background-color: #27193d;
+}
+#pp-nav.custom .pp-tooltip{
+    color: #AAA;
+}
+

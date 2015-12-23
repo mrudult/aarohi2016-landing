@@ -1,0 +1,82 @@
+#date {
+    margin-left: 2%;
+    margin-top: 2%;
+    position: absolute;
+    width: 15%;
+}
+#aarohi {
+    margin-left: -5%;
+    margin-top: -3%;
+    position: absolute;
+    width: 95%;
+}
+#cloud {
+    margin-top: 3%;
+    position: absolute;
+    width: 45%;
+}
+#ballon {
+    margin-left: 10%;
+    width: 35%;
+}
+#scene li {
+    width: 100%;
+}
+#hakuna_matata {
+    margin-left: 17%;
+    margin-top: -5%;
+    position: absolute;
+    width: 40%;
+}
+#tree {
+    margin-left: 82%;
+    margin-top: -5%;
+    width: 12%;
+}
+.grow {
+    position: absolute;
+    width: 100%;
+}
+#archives:hover {
+    width: 9%;
+}
+#archives {
+    margin-left: 3%;
+    margin-top: -7%;
+    position: absolute;
+    width: 7%;
+}
+#grass {
+    margin-top: -5%;
+    position: absolute;
+}
+#section1 img {
+    width: 100%;
+}
+.navbar-nav > li > a, .navbar-brand {
+    font-family: "FishFingers" !important;
+    font-size: 1.8em;
+}
+#cloud_timer {
+    margin-left: 60%;
+    margin-top: 0;
+    width: 30%;
+}
+#days_left {
+    color: #ffffff;
+    font-weight: bold !important;
+    margin-left: 84%;
+    margin-top: -1.7%;
+}
+#days_left p {
+    color: #ffffff !important;
+    font-family: Chalk;
+    font-size: 1em;
+    font-weight: bold !important;
+    margin-top: -16%;
+}
+#monkey {
+    margin-left: 80%;
+    margin-top: -12%;
+    width: 12%;
+}
